@@ -7,6 +7,13 @@
     </head>
 
     <body>
-        <h1>ciao</h1>
+        <h1>{{$titolo}}</h1>
+
+        <div>
+            Cosa si fa lunedi'?
+        </div>
+        <div>
+            {{$info}}
+        </div>
     </body>
 </html>

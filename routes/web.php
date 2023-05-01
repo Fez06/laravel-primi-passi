@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $cose = [
+        'titolo'=> 'Classe 89!',
+        'info'=> 'lunedi si cazzeggia :)'
+    ];
+
+
+    return view('home', $cose);
 });
